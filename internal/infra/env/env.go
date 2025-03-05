@@ -13,11 +13,8 @@ type Env struct {
 	DBHost     string `env:"DB_HOST"`
 	DBPort     int    `env:"DB_PORT"`
 	DBName     string `env:"DB_NAME"`
-<<<<<<< HEAD
-=======
 
 	JWTSecret string `env:"JWT_SECRET"`
->>>>>>> bb86e19 (commit add generate token login)
 }
 
 func New() (*Env, error) {
