@@ -12,3 +12,16 @@ type RegisterResponse struct {
 	Email    string `json:"email"`
 	Username string `json:"username"`
 }
+<<<<<<< HEAD
+=======
+
+type LoginRequest struct {
+	Identifier string `json:"identifier" validate:"required"`
+	Password   string `json:"password" validate:"required"`
+}
+
+type LoginResponse struct {
+	ID    string `json:"id"`
+	Token string `json:"token"`
+}
+>>>>>>> bb86e19 (commit add generate token login)
